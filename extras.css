@@ -56,3 +56,10 @@
 /* Richer footer contact line */
 .foot-contact{flex-basis:100%;display:flex;flex-wrap:wrap;gap:8px 22px;font-size:15px;color:#D9D2C5}
 .foot-contact span{user-select:all}
+
+/* Real logo image (brand book): cream wordmark with the gold flute */
+.logo.logo-img{padding-top:0;font-size:0;line-height:0;letter-spacing:0}
+.logo-img img{display:block;height:84px;width:auto;max-width:none}
+.foot .logo-img img{height:110px}
+@media (max-width: 1000px){.logo-img img{height:66px}}
+.bar{padding-block:8px}
